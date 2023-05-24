@@ -44,10 +44,12 @@ public class Spring {
         this.products.add(product);
     }
     public Product returnProduct(){
-        return this.products.remove(0);}
-
-    public int countProducts(){
-        return this.products.size();
+        if (this.products.size() > 0){
+            return this.products.remove(0);}
+        return null;
     }
 
+    public int countProducts() {
+            return this.products.size();
+        }
 }
