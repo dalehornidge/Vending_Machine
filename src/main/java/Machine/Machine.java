@@ -4,6 +4,6 @@ import java.util.ArrayList;
 
 public class Machine {
 
-//    inventory, coins, 
+//    inventory, coins,
     private ArrayList<>
 }
